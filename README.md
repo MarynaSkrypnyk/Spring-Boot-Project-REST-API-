@@ -53,4 +53,13 @@ After starting the application, you can interact with the API using tools like P
 
 (<img width="1271" alt="Снимок экрана 2024-04-02 в 13 16 25" src="https://github.com/MarynaSkrypnyk/Spring-boot-project-Rest-API-/assets/148319011/a1a8a4a8-673e-4f49-977f-6ec9536a6a37">
 )
-
+(<img width="1257" alt="Снимок экрана 2024-04-02 в 13 22 50" src="https://github.com/MarynaSkrypnyk/Spring-boot-project-Rest-API-/assets/148319011/ed6e420d-78f6-4e36-9543-c8d3be69b623">
+)
+(<img width="1257" alt="Снимок экрана 2024-04-02 в 13 23 45" src="https://github.com/MarynaSkrypnyk/Spring-boot-project-Rest-API-/assets/148319011/204c812e-0c99-460e-8067-ff46814b8416">
+)
+(<img width="1257" alt="Снимок экрана 2024-04-02 в 13 22 03" src="https://github.com/MarynaSkrypnyk/Spring-boot-project-Rest-API-/assets/148319011/12a742a3-3739-4b6f-92d1-2bb04f5fcde4">
+)
+(<img width="1257" alt="Снимок экрана 2024-04-02 в 13 23 20" src="https://github.com/MarynaSkrypnyk/Spring-boot-project-Rest-API-/assets/148319011/e2ba40f5-b481-41bd-9229-7fa4f323f889">
+)
+(<img width="1257" alt="Снимок экрана 2024-04-02 в 13 23 05" src="https://github.com/MarynaSkrypnyk/Spring-boot-project-Rest-API-/assets/148319011/aede6f35-6967-4636-8d6c-93d512fb4231">
+)

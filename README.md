@@ -49,6 +49,8 @@ After starting the application, you can interact with the API using tools like P
 
 ## ## Parameters and Body Details
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](http://localhost:8080/swagger-ui/swagger-ui/index.html)
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.]
+
+(<img width="1271" alt="Снимок экрана 2024-04-02 в 13 16 25" src="https://github.com/MarynaSkrypnyk/Spring-boot-project-Rest-API-/assets/148319011/a1a8a4a8-673e-4f49-977f-6ec9536a6a37">
 )
 

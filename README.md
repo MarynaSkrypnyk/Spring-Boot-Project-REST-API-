@@ -45,3 +45,6 @@ Usage
 After starting the application, you can interact with the API using tools like Postman or Curl. Below are some example requests:
 
 Authenticate
+🧷  For plastic
+https://shields.io/badge/style-plastic-green?logo=appveyor&style=plastic
+

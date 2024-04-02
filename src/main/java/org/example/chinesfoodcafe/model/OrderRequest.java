@@ -9,6 +9,7 @@ import org.example.chinesfoodcafe.utils.Payment;
 @Getter
 @Setter
 public class OrderRequest {
+
     @NotEmpty
     private String dish;
 

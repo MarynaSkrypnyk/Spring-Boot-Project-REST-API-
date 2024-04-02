@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 @EnableCaching
 @Configuration
 public class CacheConfig {
-
     @Bean
     public CacheManager cacheManager() {
         Caffeine<Object, Object> caffeineCacheBuilder =

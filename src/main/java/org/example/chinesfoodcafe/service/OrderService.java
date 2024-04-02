@@ -49,5 +49,4 @@ public class OrderService {
         log.info("pageRequest getAllOrders: {}", pageRequest);
         return page.getContent();
     }
-
 }

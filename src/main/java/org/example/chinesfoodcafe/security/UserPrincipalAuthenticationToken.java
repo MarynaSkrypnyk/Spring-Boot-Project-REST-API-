@@ -10,7 +10,6 @@ public class UserPrincipalAuthenticationToken extends AbstractAuthenticationToke
         this.principal = principal;
         setAuthenticated(true);
     }
-
     @Override
     public Object getCredentials() {
         return null;

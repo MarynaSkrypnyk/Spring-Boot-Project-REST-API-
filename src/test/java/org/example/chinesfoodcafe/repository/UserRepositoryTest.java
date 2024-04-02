@@ -67,5 +67,6 @@ public class UserRepositoryTest {
         userRepository.save(user);
         User userById = userRepository.findUserById(user.getId());
         assertEquals(user,userById);
+
     }
 }

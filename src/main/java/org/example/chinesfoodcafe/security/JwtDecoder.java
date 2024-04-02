@@ -17,4 +17,5 @@ public class JwtDecoder {
                 .build()
                 .verify(token);
     }
+
 }

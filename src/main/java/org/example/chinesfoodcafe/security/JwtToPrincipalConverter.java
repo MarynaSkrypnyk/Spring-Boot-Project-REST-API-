@@ -19,7 +19,6 @@ public class JwtToPrincipalConverter {
                 .authorities(authorityList)
                 .build();
     }
-
     private List<String> getClaimOrEmptyList(DecodedJWT jwt, String claim) {
         if (jwt.getClaim(claim).isNull()) return List.of();
         return jwt.getClaim(claim).asList(String.class);

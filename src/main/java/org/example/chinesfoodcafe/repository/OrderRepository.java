@@ -11,5 +11,4 @@ import org.springframework.stereotype.Repository;
 public interface OrderRepository extends JpaRepository<Order, Long> {
     @Query(nativeQuery = true, value = "select * from orders")
     Page<Order> getAllOrder(PageRequest pageRequest);
-
 }

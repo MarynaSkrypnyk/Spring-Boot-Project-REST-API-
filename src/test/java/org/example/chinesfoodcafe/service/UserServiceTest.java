@@ -1,12 +1,7 @@
 package org.example.chinesfoodcafe.service;
 
-import org.example.chinesfoodcafe.entity.Menu;
-import org.example.chinesfoodcafe.entity.Order;
 import org.example.chinesfoodcafe.entity.User;
 import org.example.chinesfoodcafe.repository.UserRepository;
-import org.example.chinesfoodcafe.utils.ActivatedCode;
-import org.example.chinesfoodcafe.utils.Delivery;
-import org.example.chinesfoodcafe.utils.Payment;
 import org.example.chinesfoodcafe.utils.Role;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -24,12 +19,6 @@ import static org.mockito.Mockito.*;
 public class UserServiceTest {
     @Mock
     private UserRepository userRepository;
-
-    @Mock
-    private ActivatedCode activatedCode;
-
-    @Mock
-    private EmailService emailService;
 
     @InjectMocks
     private UserService userService;
@@ -77,5 +66,6 @@ public class UserServiceTest {
         when(userRepository.save(user)).thenReturn(user);
         User result = userService.updateUser(user, id);
         assertEquals(user, result);
+
     }
 }

@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
 public interface MenuRepository extends JpaRepository<Menu, Long> {
     @Query(nativeQuery = true, value = "select * from menu")
     Page<Menu> getAllDish(PageRequest pageRequest);
-
     boolean existsByDish(String dish);
 
 }

@@ -39,8 +39,4 @@ public class JwtIssuer {
         private final String email;
         private final List<String> roles;
     }
-//    public boolean isTokenValid(String token, UserDetails userDetails) {
-//        final String userName = extractUserName(token);
-//        return (userName.equals(userDetails.getUsername())) && !isTokenExpired(token);
-//    }
 }

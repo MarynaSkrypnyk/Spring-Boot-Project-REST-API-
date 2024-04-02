@@ -9,5 +9,4 @@ class ChinesFoodCafeApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

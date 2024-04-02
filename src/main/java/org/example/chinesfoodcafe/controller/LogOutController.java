@@ -13,7 +13,6 @@ public class LogOutController {
 
     @Autowired
     private LogOutService catImageService;
-
     @GetMapping("/logOut")
     public String logout(@RequestHeader("x-api-key") String apiKey) throws IOException, InterruptedException {
         return catImageService.logOut(apiKey);

@@ -66,6 +66,7 @@ public class OrderServiceTest {
         when(orderRepository.getAllOrder(pageRequest)).thenReturn(page);
         List<Order> result = orderService.getAllOrders(pageRequest);
         assertEquals(orderList, result);
+
     }
 }
 

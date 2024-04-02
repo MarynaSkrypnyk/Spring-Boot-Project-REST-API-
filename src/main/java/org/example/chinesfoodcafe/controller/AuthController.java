@@ -28,7 +28,6 @@ public class AuthController {
     private final AuthService authService;
     private final UserService userService;
 
-
     @PostMapping("/login")
     public LoginResponse login(@RequestBody @Validated LoginRequest request) {
         return authService.attemptLogin(request.getEmail(), request.getPassword());

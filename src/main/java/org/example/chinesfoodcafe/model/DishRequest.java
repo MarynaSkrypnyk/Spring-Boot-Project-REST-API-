@@ -20,4 +20,5 @@ public class DishRequest {
 
     @Min(value = 10, message = "min price value 10 grn")
     private double price;
+
 }

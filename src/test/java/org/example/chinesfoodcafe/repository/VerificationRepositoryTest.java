@@ -20,5 +20,6 @@ public class VerificationRepositoryTest {
         verificationRepository.save(user);
         User userByEmail = verificationRepository.findByEmail(user.getEmail());
         assertEquals(user,userByEmail);
+
     }
 }

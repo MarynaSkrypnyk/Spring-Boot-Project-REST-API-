@@ -26,5 +26,6 @@ public class OrderRepositoryTest {
 
        Page<Order> orderPage = orderRepository.getAllOrder(PageRequest.of(0, 1));
         assertEquals(2, orderPage.getTotalElements());
+
     }
 }

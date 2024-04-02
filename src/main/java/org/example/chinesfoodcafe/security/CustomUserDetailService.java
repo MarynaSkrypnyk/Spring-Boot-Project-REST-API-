@@ -16,8 +16,8 @@ import java.util.List;
 @Slf4j
 @RequiredArgsConstructor
 public class CustomUserDetailService implements UserDetailsService {
-    private final UserService userService;
 
+    private final UserService userService;
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         var user = userService.findByEmail(email).orElseThrow();

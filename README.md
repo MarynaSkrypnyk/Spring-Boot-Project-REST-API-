@@ -1,40 +1,40 @@
-# A first-level heading
-ava Web Application with REST API
+# Spring Boot(Rest-API)
 
-!! THERE ARE NO TESTS AND LOGGING
 
-Overview
 
-This Java-based web application provides a RESTful API with a focus on security and performance. It features user authentication and authorization using JWT tokens, access control based on user roles, and a relational database for persistent data storage. The application is designed with a clean architecture, separating concerns into repository, service, and controller layers, alongside utility classes for common functions.
+### Overview
 
-Features
+This Java-based web application provides a RESTful API with a focus on security and performance. This provides user authentication and authorization using JWT tokens, user verification using activation codes, access control based on user roles, and relational databases for persistent data storage. The application is designed with a simple architecture that separates tasks into repository, service and controller levels, configuration files and utilities.
 
-User authentication and authorization with JWT (JSON Web Tokens)
-Weather data fetching and processing from OpenWeatherMap
-CRUD operations for city data management
-Secure REST API endpoints
-Incorporates logging for monitoring and debugging purposes.
-Project Structure:
-repository: Data access layer for interacting with the database.
-service: Contains business logic and data processing.
-util: Utility classes and common functions.
-controller: REST controllers to handle API requests.
-API Endpoints
 
-...
+### Features
 
-Parameters and Body Details
+- user authentication and authorization using JWT (JSON web tokens);
+- user verification using an activation code, which the user receives by email upon registration;
+- receiving data from open api;
+- CRUD operations for user data, menus, orders;
+- secure REST API endpoints;
+- data caching;
+- strict data validation;
 
-need to use Swagger for this
+Project structure:
+- repository: data access layer for interacting with the database.
+- service: Contains business logic and data processing.
+- util: utility classes and general functions.
+- controller: REST controllers for processing API requests.
+- API endpoints
+- configuration: configuration files:
+- entities: definition of entities:
+- security: responsible for authorization and auto-identification;
+- model: defining the data that comes from the endpoint
+- resources: dbchangelog - master.xml for word with db
 
-Getting Started
+## Prerequisites
 
-Prerequisites
-
-JDK 17 or later
-Maven
-A relational database (e.g., MySQL, PostgreSQL)
-Setup
+- JDK 17 or later
+- Maven
+- a relational database (e.g., MySQL, PostgreSQL)
+- Setup
 
 Clone the repository to your local machine.
 Configure the database connection in src/main/resources/application.properties.
@@ -43,9 +43,9 @@ Build the project using Maven: mvn clean install.
 Run the application: java -jar target/your-application.jar. (+ openweather map api key and security related things (token secret and duration))
 Usage
 
-After starting the application, you can interact with the API using tools like Postman or Curl. Below are some example requests:
+After starting the application, you can interact with the API using tools like Postman or Curl
 
-Authenticate
-🧷  For plastic
-https://shields.io/badge/style-plastic-green?logo=appveyor&style=plastic
+
+## ## Parameters and Body Details
+
 

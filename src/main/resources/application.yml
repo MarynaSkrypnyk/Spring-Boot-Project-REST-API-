@@ -1,0 +1,40 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ChineseFood
+    username: postgres
+    password: Mari44ka
+
+  spring:
+    cache:
+      cache-names: order, menu, user
+      caffeine:
+        spec: maximumSize=500, expireAfterAccess=60s
+
+
+
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+
+
+  liquibase:
+    change-log: "db.changelog/db.changelog-master.xml"
+
+security:
+  jwt:
+    secretKey: zZrq0sZK1yt9RJk51RTJ/jeU6WERbvr8nqKMWQJRX1E=
+    tokenDuration: 1D
+
+
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui/index.html
+  api-docs.path: /api-docs
+
+
+openAPI:
+    x-api-key: DEMO-API-KEY
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <!-- Example change sets -->
+    <changeSet id="create-menu-table" author="Mary">
+        <createTable tableName="menu">
+            <column name="id" type="bigserial">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="dish" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="price" type="varchar(255)">
+                <constraints nullable="false"/>
+        </column>
+        </createTable>
+    </changeSet>
+
+
+
+    <changeSet id="insert-menu" author="Mary">
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'tomato', 'tomato', 22.1);</sql>
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'cucumber', 'cucumber', 23.1);</sql>
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'burger', 'burger', 24.1);</sql>
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'octopus', 'octopus', 25.1);</sql>
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'chicken', 'chicken', 26.1);</sql>
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'chicken', 'chicken', 26.1);</sql>
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'onion', 'onion', 26.1);</sql>
+        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'ice cream', 'ice cream', 26.1);</sql>
+    </changeSet>
+
+<!--    <changeSet id="insert-menu" author="Mary">-->
+<!--        <sql>INSERT INTO menu (id, dish, description, price) VALUES (DEFAULT, 'potato', 'potato', 21.1);</sql>-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="insert-menu" author="Mary">-->
+<!--        -->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="insert-menu" author="Mary">-->
+<!--        <sql>INSERT INTO users (id, dish, description, price) VALUES (DEFAULT, 'burger', 'burger', 24.1);</sql>-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="insert-menu" author="Mary">-->
+<!--        <sql>INSERT INTO users (id, dish, description, price) VALUES (DEFAULT, 'octopus', 'octopus', 25.1);</sql>-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="insert-menu" author="Mary">-->
+<!--        <sql>INSERT INTO users (id, dish, description, price) VALUES (DEFAULT, 'chicken', 'chicken', 26.1);</sql>-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="insert-menu" author="Mary">-->
+<!--        <sql>INSERT INTO users (id, dish, description, price) VALUES (DEFAULT, 'onion', 'onion', 26.1);</sql>-->
+<!--    </changeSet>-->
+
+<!--    <changeSet id="insert-menu" author="Mary">-->
+<!--        <sql>INSERT INTO users (id, dish, description, price) VALUES (DEFAULT, 'ice cream', 'ice cream', 26.1);</sql>-->
+<!--    </changeSet>-->
+
+
+
+
+
+</databaseChangeLog>
